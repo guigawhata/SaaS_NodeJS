@@ -1,6 +1,8 @@
 'use strict'
 
-const User = use('App/models/User')
+/** @type {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
+const User = use('App/Models/User')
+
 const Permission = use('Adonis/Acl/Permission')
 const Role = use('Adonis/Acl/Role')
 
